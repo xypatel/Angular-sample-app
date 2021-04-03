@@ -1,5 +1,7 @@
 h3 {
   color: rgb(0, 102, 255);
-  display: inline-block;
-  margin-left: 12%;
+}
+
+.container {
+  margin: 0;
 }
