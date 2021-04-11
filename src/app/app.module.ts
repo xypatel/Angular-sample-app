@@ -9,13 +9,15 @@ import { InputFormComponent } from './input-form/input-form.component';
 import { TeamFormComponent } from './team-form/team-form.component';
 
 import { TextInterpolationComponent } from './text-interpolation/text-interpolation.component';
+import { BirthdayPipeComponent } from './birthday-pipe/birthday-pipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputFormComponent,
     TeamFormComponent,
-    TextInterpolationComponent
+    TextInterpolationComponent,
+    BirthdayPipeComponent
   ],
   imports: [
     BrowserModule,
