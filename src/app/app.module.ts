@@ -10,6 +10,7 @@ import { TeamFormComponent } from './team-form/team-form.component';
 
 import { TextInterpolationComponent } from './text-interpolation/text-interpolation.component';
 import { BirthdayPipeComponent } from './birthday-pipe/birthday-pipe.component';
+import { EventButtonComponent } from './event-button/event-button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BirthdayPipeComponent } from './birthday-pipe/birthday-pipe.component';
     InputFormComponent,
     TeamFormComponent,
     TextInterpolationComponent,
-    BirthdayPipeComponent
+    BirthdayPipeComponent,
+    EventButtonComponent
   ],
   imports: [
     BrowserModule,
