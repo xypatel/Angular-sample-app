@@ -11,6 +11,7 @@ import { TeamFormComponent } from './team-form/team-form.component';
 import { TextInterpolationComponent } from './text-interpolation/text-interpolation.component';
 import { BirthdayPipeComponent } from './birthday-pipe/birthday-pipe.component';
 import { EventButtonComponent } from './event-button/event-button.component';
+import { NameListComponent } from './name-list/name-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { EventButtonComponent } from './event-button/event-button.component';
     TeamFormComponent,
     TextInterpolationComponent,
     BirthdayPipeComponent,
-    EventButtonComponent
+    EventButtonComponent,
+    NameListComponent
   ],
   imports: [
     BrowserModule,

@@ -9,9 +9,9 @@ export class TextInterpolationComponent implements OnInit {
 
   constructor() { }
 
-  name = 'Angular';
+  name = 'Class';
   url = './assets/img/angular.png';
-  num = 2;
+  num = 1 + 1;
   
   ngOnInit(): void {
   }
